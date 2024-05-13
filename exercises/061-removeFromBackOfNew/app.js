@@ -1,5 +1,8 @@
 function removeFromBackOfNew(arr) {
   // your code here
+  console.log(arr.length);
+  let fromBackOf = arr.slice(0, arr.length - 1);
+  return fromBackOf;
   
 }
 

@@ -9,7 +9,11 @@ let obj = {
 
 function countNumberOfKeys(obj) {
     // your code here
-   
+   let counterOfProps = 0;
+   for (key in obj) {
+    counterOfProps += 1; 
+   } 
+   return counterOfProps;
 }
 
 let output = countNumberOfKeys(obj);
